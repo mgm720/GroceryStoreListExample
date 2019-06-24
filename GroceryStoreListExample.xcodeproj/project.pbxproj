@@ -12,6 +12,7 @@
 		5C446E1722C1326500D5B7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1622C1326500D5B7C9 /* Assets.xcassets */; };
 		5C446E1A22C1326500D5B7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1822C1326500D5B7C9 /* LaunchScreen.storyboard */; };
 		5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */; };
+		5C446E2722C13DB100D5B7C9 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2622C13DB100D5B7C9 /* StoreTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5C446E1922C1326500D5B7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C446E1B22C1326500D5B7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTableViewController.swift; sourceTree = "<group>"; };
+		5C446E2622C13DB100D5B7C9 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				5C446E1322C1326200D5B7C9 /* Main.storyboard */,
+				5C446E2622C13DB100D5B7C9 /* StoreTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C446E2722C13DB100D5B7C9 /* StoreTableViewCell.swift in Sources */,
 				5C446E1022C1326200D5B7C9 /* AppDelegate.swift in Sources */,
 				5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */,
 			);
