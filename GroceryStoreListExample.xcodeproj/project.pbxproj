@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5C446E1022C1326200D5B7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E0F22C1326200D5B7C9 /* AppDelegate.swift */; };
-		5C446E1222C1326200D5B7C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E1122C1326200D5B7C9 /* ViewController.swift */; };
 		5C446E1522C1326200D5B7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1322C1326200D5B7C9 /* Main.storyboard */; };
 		5C446E1722C1326500D5B7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1622C1326500D5B7C9 /* Assets.xcassets */; };
 		5C446E1A22C1326500D5B7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1822C1326500D5B7C9 /* LaunchScreen.storyboard */; };
+		5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C446E0C22C1326200D5B7C9 /* GroceryStoreListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStoreListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C446E0F22C1326200D5B7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C446E1122C1326200D5B7C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C446E1422C1326200D5B7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C446E1622C1326500D5B7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C446E1922C1326500D5B7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C446E1B22C1326500D5B7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				5C446E0F22C1326200D5B7C9 /* AppDelegate.swift */,
-				5C446E1122C1326200D5B7C9 /* ViewController.swift */,
-				5C446E1322C1326200D5B7C9 /* Main.storyboard */,
+				5C446E2522C1386C00D5B7C9 /* Model */,
+				5C446E2322C1385100D5B7C9 /* View */,
+				5C446E2422C1385B00D5B7C9 /* Controller */,
 				5C446E1622C1326500D5B7C9 /* Assets.xcassets */,
 				5C446E1822C1326500D5B7C9 /* LaunchScreen.storyboard */,
 				5C446E1B22C1326500D5B7C9 /* Info.plist */,
 			);
 			path = GroceryStoreListExample;
+			sourceTree = "<group>";
+		};
+		5C446E2322C1385100D5B7C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C446E1322C1326200D5B7C9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C446E2422C1385B00D5B7C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C446E2522C1386C00D5B7C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C446E1222C1326200D5B7C9 /* ViewController.swift in Sources */,
 				5C446E1022C1326200D5B7C9 /* AppDelegate.swift in Sources */,
+				5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
