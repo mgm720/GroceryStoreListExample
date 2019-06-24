@@ -13,7 +13,7 @@
 		5C446E1A22C1326500D5B7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C446E1822C1326500D5B7C9 /* LaunchScreen.storyboard */; };
 		5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */; };
 		5C446E2722C13DB100D5B7C9 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2622C13DB100D5B7C9 /* StoreTableViewCell.swift */; };
-		5C446E2922C13F5C00D5B7C9 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2822C13F5C00D5B7C9 /* Stores.swift */; };
+		5C446E2922C13F5C00D5B7C9 /* StoresList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C446E2822C13F5C00D5B7C9 /* StoresList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		5C446E1B22C1326500D5B7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C446E2122C1383C00D5B7C9 /* StoreListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreListTableViewController.swift; sourceTree = "<group>"; };
 		5C446E2622C13DB100D5B7C9 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
-		5C446E2822C13F5C00D5B7C9 /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		5C446E2822C13F5C00D5B7C9 /* StoresList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		5C446E2522C1386C00D5B7C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5C446E2822C13F5C00D5B7C9 /* Stores.swift */,
+				5C446E2822C13F5C00D5B7C9 /* StoresList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				5C446E2722C13DB100D5B7C9 /* StoreTableViewCell.swift in Sources */,
 				5C446E1022C1326200D5B7C9 /* AppDelegate.swift in Sources */,
 				5C446E2222C1383C00D5B7C9 /* StoreListTableViewController.swift in Sources */,
-				5C446E2922C13F5C00D5B7C9 /* Stores.swift in Sources */,
+				5C446E2922C13F5C00D5B7C9 /* StoresList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

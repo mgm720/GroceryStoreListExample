@@ -11,12 +11,14 @@ import Foundation
 struct Store {
     var name: String
     var price: String
+    var imageName: String
     var items: [String]
 }
 
 let walmart = Store(
     name: "WalMart",
     price: "$",
+    imageName: "WalmartLogo",
     items: [
         "Dish Soap",
         "Dog Toys",
@@ -29,6 +31,7 @@ let walmart = Store(
 let traderJoes = Store(
     name: "Trader Joe's",
     price: "$",
+    imageName: "TraderJoesLogo",
     items: [
         "Bananas",
         "Avocados",
@@ -40,6 +43,7 @@ let traderJoes = Store(
 let kroger = Store(
     name: "Kroger",
     price: "$$",
+    imageName: "KrogerLogo",
     items: [
         "Frosted Mini Wheats",
         "Almond Milk",
@@ -51,6 +55,7 @@ let kroger = Store(
 let wholeFoods = Store(
     name: "Whole Foods",
     price: "$$$",
+    imageName: "WholeFoodsLogo",
     items: [
         "Vegan Cheese",
         "Veggie Burgers",
