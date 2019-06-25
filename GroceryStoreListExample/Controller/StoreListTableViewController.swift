@@ -41,10 +41,19 @@ class StoreListTableViewController: UITableViewController {
         cell.storeNameLabel.text = storeItem.name
         cell.storePriceLabel.text = storeItem.price
         cell.storeImageView.image = UIImage(named: "\(storeItem.imageName)")
+        
+        //Mark: Accessibility
+        cell.storeNameLabel.isAccessibilityElement = true
+        
+        cell.storeImageView.isAccessibilityElement = true
+        cell.storeImageView.accessibilityLabel = "\(storeItem.name) Logo"
+        
+        cell.storePriceLabel.isAccessibilityElement = true
+        cell.storePriceLabel.accessibilityLabel = "Price Level"
+        cell.storePriceLabel.accessibilityValue = "\(storeItem.price.count) out of 3"
 
         return cell
     }
-
     
     // MARK: - Navigation
 
