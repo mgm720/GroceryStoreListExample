@@ -9,18 +9,10 @@
 import UIKit
 
 class StoreListTableViewController: UITableViewController {
-    
-    @IBOutlet var storeTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-    }
-    
-    func setupTableView() {
-        storeTableView.rowHeight = UITableView.automaticDimension
-        storeTableView.estimatedRowHeight = 100
     }
 
     // MARK: - Table view data source
