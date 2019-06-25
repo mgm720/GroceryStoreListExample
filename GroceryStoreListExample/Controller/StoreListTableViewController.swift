@@ -17,11 +17,6 @@ class StoreListTableViewController: UITableViewController {
 
         
     }
-    
-    func setupTableView() {
-        storeTableView.rowHeight = UITableView.automaticDimension
-        storeTableView.estimatedRowHeight = 100
-    }
 
     // MARK: - Table view data source
 
