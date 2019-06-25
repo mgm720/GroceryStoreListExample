@@ -9,8 +9,6 @@
 import UIKit
 
 class StoreListTableViewController: UITableViewController {
-    
-    @IBOutlet var storeTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
