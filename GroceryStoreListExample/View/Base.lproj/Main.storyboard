@@ -25,37 +25,25 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="139.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Store Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xk-dz-Lxw">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" fixedFrame="YES" text="Store Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xk-dz-Lxw">
                                             <rect key="frame" x="20" y="11" width="264" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7rn-QM-Y0c">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7rn-QM-Y0c">
                                             <rect key="frame" x="289" y="10" width="120" height="120"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="120" id="FR5-2J-mJ4"/>
-                                                <constraint firstAttribute="width" constant="120" id="hvC-oS-aAw"/>
-                                            </constraints>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-Ur-Laq">
-                                            <rect key="frame" x="20" y="61.5" width="264" height="17.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTR-Ur-Laq">
+                                            <rect key="frame" x="20" y="61" width="264" height="18"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="7rn-QM-Y0c" firstAttribute="leading" secondItem="bTR-Ur-Laq" secondAttribute="trailing" constant="5" id="1u0-XT-vNy"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="bTR-Ur-Laq" secondAttribute="bottom" constant="50" id="CiD-04-QEB"/>
-                                        <constraint firstItem="5xk-dz-Lxw" firstAttribute="leading" secondItem="8sO-v3-6EM" secondAttribute="leadingMargin" id="KOM-bT-syV"/>
-                                        <constraint firstItem="7rn-QM-Y0c" firstAttribute="centerY" secondItem="8sO-v3-6EM" secondAttribute="centerY" id="KOh-f3-vyT"/>
-                                        <constraint firstItem="bTR-Ur-Laq" firstAttribute="leading" secondItem="8sO-v3-6EM" secondAttribute="leadingMargin" id="TMB-C7-liA"/>
-                                        <constraint firstItem="7rn-QM-Y0c" firstAttribute="leading" secondItem="5xk-dz-Lxw" secondAttribute="trailing" constant="5" id="jTy-BK-0xY"/>
-                                        <constraint firstAttribute="trailing" secondItem="7rn-QM-Y0c" secondAttribute="trailing" constant="5" id="kWB-v9-Sle"/>
-                                        <constraint firstItem="bTR-Ur-Laq" firstAttribute="top" secondItem="5xk-dz-Lxw" secondAttribute="bottom" constant="30" id="mDv-J5-yba"/>
-                                        <constraint firstItem="5xk-dz-Lxw" firstAttribute="top" secondItem="8sO-v3-6EM" secondAttribute="topMargin" id="o7k-1s-Cu6"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="storeImageView" destination="7rn-QM-Y0c" id="f6d-dh-ebI"/>
