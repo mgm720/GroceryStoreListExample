@@ -72,7 +72,7 @@
                     <navigationItem key="navigationItem" title="Store List" id="D1s-PW-9gU"/>
                     <connections>
                         <outlet property="storeTableView" destination="Diq-tj-LPl" id="8Wg-u8-zNI"/>
-                        <segue destination="alz-vr-T3y" kind="show" id="0wI-KW-Y1q"/>
+                        <segue destination="alz-vr-T3y" kind="show" identifier="goToItems" id="0wI-KW-Y1q"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bfg-z6-TpT" userLabel="First Responder" sceneMemberID="firstResponder"/>
