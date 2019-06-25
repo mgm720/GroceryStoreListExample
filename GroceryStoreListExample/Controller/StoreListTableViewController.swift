@@ -9,11 +9,18 @@
 import UIKit
 
 class StoreListTableViewController: UITableViewController {
+    
+    @IBOutlet var storeTableView: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
+    }
+    
+    func setupTableView() {
+        storeTableView.rowHeight = UITableView.automaticDimension
+        storeTableView.estimatedRowHeight = 100
     }
 
     // MARK: - Table view data source
@@ -27,9 +34,13 @@ class StoreListTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "storeCell", for: indexPath) as! StoreTableViewCell
+        
+        let storeItem = stores[indexPath.row]
 
-        // Configure the cell...
+        cell.storeNameLabel.text = storeItem.name
+        cell.storePriceLabel.text = storeItem.price
+        cell.storeImageView.image = UIImage(named: "\(storeItem.imageName)")
 
         return cell
     }
