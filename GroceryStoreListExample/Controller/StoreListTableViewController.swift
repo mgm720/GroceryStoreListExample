@@ -38,6 +38,7 @@ class StoreListTableViewController: UITableViewController {
         cell.storeNameLabel.isAccessibilityElement = true
         
         cell.storeImageView.isAccessibilityElement = true
+        cell.storeImageView.accessibilityTraits = .image
         cell.storeImageView.accessibilityLabel = "\(storeItem.name) Logo"
         
         cell.storePriceLabel.isAccessibilityElement = true
